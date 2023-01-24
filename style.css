@@ -1,16 +1,51 @@
-<style> 
-/* CSS code for thanks.html */
-
-button[type="submit"] {
-    background-color: green;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+html,
+  h1 {
+    text-size: 60px;
+  }
+  h1 {
+    color: Green;
+    text-align: center;
+    text-size: 60px;
+  }
+  h2 {
+    color: Green;
+    text-align: center;
+    text-size: 60px;
+  }
+  .smaller-image {
+    width: 100px;
+    margin: 0px 50px 0px 0px;
+  }
+  .thick-green-border {
+    border-color: #90EE90;
+    border-width: 4px;
+    border-style: solid;
+  }
+  label {
+  font-weight: bold;
 }
-
-button[type="submit"]:hover {
-    background-color: darkgreen;
+input[type="submit"] {
+  background-color: Yellow;
+  color: black;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
+  input[type="Submit"] {
+    border-color: #000;
+    border-width: 3px;
+    border-style: solid;
+  }
+  .information {
+    font-family: New 'Times New Roman', Times, serif;
+    font-size: 15px
+  }
+  :root {
+    --main-bg-color:
+    blanchedalmond;
+  }
+  body {
+    background-color: 
+    var(--main-bg-color);
+  }
